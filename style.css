@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: darkcyan;
+}
+
+#tempCalc{
+    width: 400px;
+    height: 200px;
+    background-color: burlywood;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    text-align: center;
+}
+
+#tempCalc h2{
+    margin: 25px auto;
+    font-size: 40px;
+}
+
+#tempCalc #submit{
+    margin: 15px auto;
+}
